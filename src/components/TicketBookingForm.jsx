@@ -1,6 +1,6 @@
-// TicketBookingForm.js
+
 import React, { useState } from 'react';
-import './styles.css'; // Import your custom styles
+import './styles.css'; 
 
 const TicketBookingForm = ({ show }) => {
   const [userName, setUserName] = useState('');
@@ -13,14 +13,11 @@ const TicketBookingForm = ({ show }) => {
       email,
     };
 
-    // Store user information in local storage
     localStorage.setItem('bookingDetails', JSON.stringify(bookingDetails));
 
-    // Clear the form
     setUserName('');
     setEmail('');
 
-    // Show an alert
     alert('Movie Ticket Booked!');
 
     console.log('Movie Ticket Booked:', bookingDetails);

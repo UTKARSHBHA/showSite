@@ -1,4 +1,4 @@
-/* styles.css */
+
 .home-container {
     max-width: 1200px;
     margin: auto;
@@ -37,7 +37,6 @@
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    /* margin-left: auto; */
     margin-bottom: 10px;
   }
   
@@ -56,7 +55,6 @@
   }
   
 
- /* styles.css */
 .show-summary-container {
     max-width: 800px;
     margin: auto;
@@ -149,7 +147,6 @@
   }
   
 
-  /* styles.css */
 body {
     font-family: 'Arial', sans-serif;
     color: #333;

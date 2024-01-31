@@ -1,8 +1,8 @@
-// ShowSummary.js
+
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import TicketBookingForm from './TicketBookingForm';
-import './styles.css'; // Import your custom styles
+import './styles.css'; 
 
 const ShowSummary = () => {
   const { id } = useParams();
@@ -46,7 +46,6 @@ const ShowSummary = () => {
           <li>
             <strong>Runtime:</strong> {show.runtime} minutes
           </li>
-          {/* Add more details as needed */}
         </ul>
       </div>
 
