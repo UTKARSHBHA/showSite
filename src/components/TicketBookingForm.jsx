@@ -16,6 +16,13 @@ const TicketBookingForm = ({ show }) => {
     // Store user information in local storage
     localStorage.setItem('bookingDetails', JSON.stringify(bookingDetails));
 
+    // Clear the form
+    setUserName('');
+    setEmail('');
+
+    // Show an alert
+    alert('Movie Ticket Booked!');
+
     console.log('Movie Ticket Booked:', bookingDetails);
   };
 
